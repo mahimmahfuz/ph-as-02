@@ -48,7 +48,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: end;
-    margin-right: 10px;
 }
 .right_part button{
     color: white;
