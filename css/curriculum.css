@@ -1,0 +1,49 @@
+#curriculum{
+    background-image: url('../assets/curriculum/bg.png');
+}
+#curriculum h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    padding: 50px 0 25px 0;
+}
+#curriculum .card{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+#curriculum .card_part{
+    align-items: center;
+    text-align: center;
+    padding: 50px 25px;
+    border-radius: 19px;
+    margin-bottom: 100px;
+}
+#curriculum .card_part .text p{
+    font-weight: 500;
+    font-family: 'Quicksand';
+    color: #808080;
+}
+#curriculum .card_part .text a{
+    font-size: 15px;
+    font-weight: bold;
+}
+#curriculum .card_part:nth-child(1){
+    background-image: linear-gradient(#DEF5FF, white);
+}
+#curriculum .card_part:nth-child(2){
+    background-image: linear-gradient(#FFF4DC, white);
+}
+#curriculum .card_part:nth-child(3){
+    background-image: linear-gradient(#F2E8FF, white);
+}
+#curriculum .card_part:nth-child(1) a{
+    color: #64C8FF;
+}
+#curriculum .card_part:nth-child(2) a{
+    color: #F0AA00;
+}
+#curriculum .card_part:nth-child(3) a{
+    color: #8700FF;
+}
